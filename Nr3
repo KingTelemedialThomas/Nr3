@@ -1,0 +1,17 @@
+#while
+zahl = -50
+while zahl <50:
+    zahl+=1
+    if zahl%2 == 1:
+        print(zahl)
+    else:
+        pass
+        
+#for     
+counter = -50
+counter_ende = 50
+liste_counter = list(range(counter, counter_ende))
+
+for e in liste_counter:
+    if e%2 != 0:
+        print (e)     
